@@ -1,35 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-}
-
-.header {
-    background-color: #1e293b;
-    color: white;
-    padding: 15px 20px;
-}
-
-.header h2 {
-    font-size: 1.2rem;
-}
-
-.header p {
-    font-size: 0.85rem;
-    color: #94a3b8;
-}
-
-#map {
-    flex-grow: 1;
-    width: 100%;
-}
 body, html {
     margin: 0;
     padding: 0;
