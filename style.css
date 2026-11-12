@@ -30,3 +30,35 @@ body {
     flex-grow: 1;
     width: 100%;
 }
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+#header {
+    height: 10%;
+    background-color: #1b263b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header h1 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+#header p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #a0aec0;
+}
+
+#map {
+    height: 90%;
+    width: 100%;
+}
